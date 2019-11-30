@@ -1,6 +1,6 @@
-# ard
-Asynchronous Resource Discovery
-Title : A Scalable and Dynamic Network Topology and Service
+# Asynchronous Resource Discovery
+
+A Scalable and Dynamic Network Topology and Service
 
 Part Ⅰ	Introduction</br>
 Origin</br>

@@ -1,0 +1,249 @@
+Message-ID: <107011581.282.1386312865473.JavaMail.WIN-1FL7JAFAPR6$@WIN-1FL7JAFAPR6>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_281_1217556892.1386312865473"
+
+------=_Part_281_1217556892.1386312865473
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html>
+    <head>
+        <!-- MS Word on Windows doesn't realise the encoding is UTF-8 unles=
+s this meta tag is present -->
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Du=
+tf-8">
+        <title>RabbitMQ</title>
+        <style>
+            body, p, td, table, tr, .bodytext, .stepfield {
+=09            font-family: Arial, Helvetica, FreeSans, sans-serif;
+            }
+            .panel {
+                margin: 10px;
+                padding: 10px;
+                border: 1px solid #999;
+                background-color: #f0f0f0;
+            }
+            .noteMacro { border-style: solid; border-width: 1px; border-col=
+or: #F0C000; background-color: #FFFFCE; text-align:left;}
+            .warningMacro { border-style: solid; border-width: 1px; border-=
+color: #c00; background-color: #fcc; text-align:left;}
+            .infoMacro { border-style: solid; border-width: 1px; border-col=
+or: #69c; background-color: #D8E4F1; text-align:left;}
+            .tipMacro { border-style: solid; border-width: 1px; border-colo=
+r: #090; background-color: #dfd; text-align:left;}
+            .informationMacroPadding { padding: 5px 0 0 5px; }
+
+            table.infoMacro td, table.warningMacro td, table.tipMacro td, t=
+able.noteMacro td, table.sectionMacro td {
+                border: none;
+            }
+
+            .grid {
+                margin: 2px 0px 5px 0px;
+                border-collapse: collapse;
+            }
+            .grid th  {
+                border: 1px solid #ccc;
+                padding: 2px 4px 2px 4px;
+                background: #f0f0f0;
+                text-align: center;
+            }
+            .grid td  {
+                border: 1px solid #ccc;
+                padding: 3px 4px 3px 4px;
+            }           =20
+        </style>
+    </head>
+
+    <body style=3D"background-color: white; padding: 10px;">
+        <h1>RabbitMQ</h1>
+        <p><div>
+<ul>
+    <li><a href=3D'#RabbitMQ-=E5=AE=89=E8=A3=85'>=E5=AE=89=E8=A3=85</a></li=
+>
+    <li><a href=3D'#RabbitMQ-=E9=85=8D=E7=BD=AE'>=E9=85=8D=E7=BD=AE</a></li=
+>
+    <li><a href=3D'#RabbitMQ-=E5=AD=98=E5=82=A8'>=E5=AD=98=E5=82=A8</a></li=
+>
+    <li><a href=3D'#RabbitMQ-=E7=AE=A1=E7=90=86=E6=8F=92=E4=BB=B6'>=E7=AE=
+=A1=E7=90=86=E6=8F=92=E4=BB=B6</a></li>
+    <li><a href=3D'#RabbitMQ-=E9=AB=98=E5=8F=AF=E7=94=A8=E9=85=8D=E7=BD=AE'=
+>=E9=AB=98=E5=8F=AF=E7=94=A8=E9=85=8D=E7=BD=AE</a></li>
+<ul>
+    <li><a href=3D'#RabbitMQ-1=E9=85=8D=E7=BD=AEerlang=E9=9B=86=E7=BE=A4'>1=
+.=E9=85=8D=E7=BD=AEerlang=E9=9B=86=E7=BE=A4</a></li>
+    <li><a href=3D'#RabbitMQ-2=E5=88=9B=E5=BB=BARabbitMQ=E9=9B=86=E7=BE=A4'=
+>2.=E5=88=9B=E5=BB=BARabbitMQ=E9=9B=86=E7=BE=A4</a></li>
+    <li><a href=3D'#RabbitMQ-3=E5=88=9B=E5=BB=BAHA=E9=9B=86=E7=BE=A4'>3.=E5=
+=88=9B=E5=BB=BAHA=E9=9B=86=E7=BE=A4</a></li>
+</ul>
+</ul></div></p><h1 id=3D"RabbitMQ-=E5=AE=89=E8=A3=85">=E5=AE=89=E8=A3=85</h=
+1><hr /><p>=E9=9C=80=E8=A6=81root=E6=9D=83=E9=99=90</p><p>=C2=A0</p><div cl=
+ass=3D"code panel" style=3D"border-width: 1px;"><div class=3D"codeContent p=
+anelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">wget=C2=
+=A0http://172.16.50.34/install_rabbitmq.sh
+
+chmod 755 install_rabbitmq.sh
+
+./install_rabbitmq.sh</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><h1 id=3D"RabbitMQ-=E9=85=8D=E7=BD=AE">=E9=85=8D=
+=E7=BD=AE</h1><hr /><p>vim /etc/rabbitmq/rabbitmq.config</p><p>=E8=80=83=E8=
+=99=91=E5=88=B0=E5=9C=A8128G=E5=86=85=E5=AD=98=E4=B8=8A=E5=92=8CPostgres=E6=
+=8C=895/5=E5=88=86=E9=85=8D=EF=BC=9A</p><p>=C2=A0</p><div class=3D"code pan=
+el" style=3D"border-width: 1px;"><div class=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: erlang; gutter: false">[{rabb=
+it, [{vm_memory_high_watermark_paging_ratio, 0.75},
+{vm_memory_high_watermark, 0.5}]}].</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=E9=87=8D=E5=90=AF=EF=BC=9A</p><p>=C2=A0</p><di=
+v class=3D"code panel" style=3D"border-width: 1px;"><div class=3D"codeConte=
+nt panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">rabbitmq=
+ctl stop
+
+rabbitmq-server -detached</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><h1 id=3D"RabbitMQ-=E5=AD=98=E5=82=A8">=E5=AD=98=
+=E5=82=A8</h1><hr /><p>=E5=B0=86VG_DATA=E4=B8=AD=E5=88=92=E5=88=86=E5=87=BA=
+128G=E7=9A=84lv_mnesia:</p><p>=C2=A0</p><div class=3D"code panel" style=3D"=
+border-width: 1px;"><div class=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">lvcreate=
+ -L 128G -n lv_mnesia VG_DATA
+
+mkfs.ext4=C2=A0/dev/mapper/VG_DATA-lv_mnesia</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=E5=81=9C=E6=AD=A2=E6=9C=8D=E5=8A=A1=EF=BC=9A</=
+p><p>=C2=A0</p><div class=3D"code panel" style=3D"border-width: 1px;"><div =
+class=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">rabbitmq=
+ctl stop
+
+cp=C2=A0=C2=A0/var/lib/rabbitmq/mnesia =C2=A0/var/lib/rabbitmq/mnesia.new -=
+r -p</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=E7=94=A8blkid=E5=BE=97=E5=88=B0lv_mnesia=E7=9A=
+=84UUID=EF=BC=8C=E5=86=99=E5=85=A5fstab=E4=B8=AD=EF=BC=8C=E5=A6=82=C2=B7=EF=
+=BC=9A</p><div class=3D"code panel" style=3D"border-width: 1px;"><div class=
+=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">UUID=3D3=
+2392ff5-1416-45cd-b8d5-0edb2254e04c =C2=A0 =C2=A0 =C2=A0 /var/lib/rabbitmq/=
+mnesia =C2=A0 =C2=A0 =C2=A0 =C2=A0ext4 =C2=A0 =C2=A0defaults =C2=A0 =C2=A0 =
+=C2=A0 =C2=A00 =C2=A0 =C2=A0 =C2=A0 2</pre>
+=09=09</div>
+</div></div><p>=E7=84=B6=E5=90=8E=E6=8C=82=E8=BD=BD=E5=90=AF=E5=8A=A8=EF=BC=
+=9A</p><p><span style=3D"font-size: 10.0pt;line-height: 13.0pt;">=C2=A0</sp=
+an></p><div class=3D"code panel" style=3D"border-width: 1px;"><div class=3D=
+"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">mount -a
+
+cp=C2=A0=C2=A0/var/lib/rabbitmq/mnesia.new/* /var/lib/rabbitmq/mnesia=C2=A0=
+-r -p
+
+chown rabbitmq:rabbitmq=C2=A0/var/lib/rabbitmq/mnesia -R
+
+rm=C2=A0/var/lib/rabbitmq/mnesia.new -r -f
+
+rabbitmq-server -detached</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=C2=A0</p><h1 id=3D"RabbitMQ-=E7=AE=A1=E7=90=86=
+=E6=8F=92=E4=BB=B6">=E7=AE=A1=E7=90=86=E6=8F=92=E4=BB=B6</h1><hr /><pre cla=
+ss=3D"example">=E5=AE=89=E8=A3=85</pre><p class=3D"example">=C2=A0</p><div =
+class=3D"code panel" style=3D"border-width: 1px;"><div class=3D"codeContent=
+ panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">rabbitmq=
+-plugins enable rabbitmq_management
+rabbitmqctl stop
+
+rabbitmq-server -detached</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=C2=A0</p><p>=E5=9C=B0=E5=9D=80=EF=BC=9Ahttp://=
+server-name:15672/</p><p>=E9=BB=98=E8=AE=A4=E7=99=BB=E5=BD=95: guest/guest<=
+/p><p><span style=3D"color: rgb(85,85,85);"><br /></span></p><h1 id=3D"Rabb=
+itMQ-=E9=AB=98=E5=8F=AF=E7=94=A8=E9=85=8D=E7=BD=AE">=E9=AB=98=E5=8F=AF=E7=
+=94=A8=E9=85=8D=E7=BD=AE</h1><hr /><h5 id=3D"RabbitMQ-1=E9=85=8D=E7=BD=AEer=
+lang=E9=9B=86=E7=BE=A4">1.=E9=85=8D=E7=BD=AEerlang=E9=9B=86=E7=BE=A4</h5><p=
+>=E6=8B=B7=E8=B4=9D/var/lib/rabbitmq/.erlang.cookie=E5=88=B0=E9=9B=86=E7=BE=
+=A4=E4=B8=AD=E5=85=B6=E4=BB=96=E7=9A=84=E6=9C=BA=E5=99=A8=E4=B8=AD=EF=BC=88=
+=E6=B3=A8=E6=84=8F=E6=9D=83=E9=99=90=EF=BC=8Cchmod 400=E5=92=8Cchown rabbit=
+mq:rabbitmq=EF=BC=89</p><p>=E4=BF=AE=E6=94=B9/etc/hosts=E6=96=87=E4=BB=B6=
+=EF=BC=8C=E5=B0=86=E9=9B=86=E7=BE=A4=E4=B8=AD=E6=89=80=E6=9C=89=E7=9A=84=E6=
+=9C=BA=E5=99=A8=E5=90=8D=E9=83=BD=E5=8A=A0=E5=85=A5</p><p>=E9=87=8D=E6=96=
+=B0=E5=90=AF=E5=8A=A8=E5=90=84=E4=B8=AA=E8=8A=82=E7=82=B9=E4=B8=8A=E7=9A=84=
+=E6=9C=8D=E5=8A=A1=EF=BC=9A</p><p>=C2=A0</p><div class=3D"code panel" style=
+=3D"border-width: 1px;"><div class=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">rabbitmq=
+ctl stop
+
+rabbitmq-server -detached</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=C2=A0</p><h5 id=3D"RabbitMQ-2=E5=88=9B=E5=BB=
+=BARabbitMQ=E9=9B=86=E7=BE=A4">2.=E5=88=9B=E5=BB=BARabbitMQ=E9=9B=86=E7=BE=
+=A4</h5><p>=E5=9C=A8slave=E4=B8=8A=E5=90=91master=E6=B3=A8=E5=86=8C=EF=BC=
+=8C=E5=8A=A0=E5=85=A5=E9=9B=86=E7=BE=A4=EF=BC=9A</p><div class=3D"code pane=
+l" style=3D"border-width: 1px;"><div class=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">root@com=
+m2:~# rabbitmqctl stop_app
+Stopping node rabbit@comm2 ...
+...done.
+
+root@comm2:~# rabbitmqctl join_cluster --ram rabbit@comm1
+Clustering node rabbit@comm2 with rabbit@comm1 ...
+...done.
+
+root@comm2:~# rabbitmqctl start_app
+Starting node rabbit@comm2 ...
+...done.</pre>
+=09=09</div>
+</div></div><p>=E5=88=86=E5=88=AB=E5=9C=A8=E9=9B=86=E7=BE=A4=E5=90=84=E4=B8=
+=AA=E6=9C=BA=E5=99=A8=E4=B8=8A=E9=AA=8C=E8=AF=81=E7=8A=B6=E6=80=81=EF=BC=9A=
+</p><div class=3D"code panel" style=3D"border-width: 1px;"><div class=3D"co=
+deContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">root@com=
+m2:~# rabbitmqctl cluster_status
+Cluster status of node rabbit@comm2 ...
+[{nodes,[{disc,[rabbit@comm1]},{ram,[rabbit@comm2]}]},
+{running_nodes,[rabbit@comm1,rabbit@comm2]},
+{partitions,[]}]
+...done.</pre>
+=09=09</div>
+</div></div><div class=3D"code panel" style=3D"border-width: 1px;"><div cla=
+ss=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">root@com=
+m1:~# rabbitmqctl cluster_status
+Cluster status of node rabbit@comm1 ...
+[{nodes,[{disc,[rabbit@comm1]},{ram,[rabbit@comm2]}]},
+{running_nodes,[rabbit@comm2,rabbit@comm1]},
+{partitions,[]}]
+...done.</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><h5 id=3D"RabbitMQ-3=E5=88=9B=E5=BB=BAHA=E9=9B=86=
+=E7=BE=A4">3.=E5=88=9B=E5=BB=BAHA=E9=9B=86=E7=BE=A4</h5><p>=E9=85=8D=E7=BD=
+=AE=E6=89=80=E6=9C=89=E7=9A=84Queue=E9=83=BD=E8=A2=AB=E9=95=9C=E5=83=8F=EF=
+=BC=88=E9=99=A4=E4=BA=86RabbitMQ=E5=86=85=E9=83=A8=E7=9A=84=E9=98=9F=E5=88=
+=97=EF=BC=89</p><div class=3D"code panel" style=3D"border-width: 1px;"><div=
+ class=3D"codeContent panelContent">
+<div id=3D"root">
+=09=09<pre class=3D"theme: Confluence; brush: bash; gutter: false">rabbitmq=
+ctl set_policy HA '^(?!amq\.).*' '{"ha-mode": "all"}'</pre>
+=09=09</div>
+</div></div><p>=C2=A0</p><p>=C2=A0</p>
+    </body>
+</html>
+------=_Part_281_1217556892.1386312865473--
